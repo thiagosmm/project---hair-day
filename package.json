@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch server.json --port 3333"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,6 @@
     "url": "https://github.com/thiagosmm/project---hair-day/issues"
   },
   "homepage": "https://github.com/thiagosmm/project---hair-day#readme",
-  "scripts": {
-    "server": "json-server --watch server.json --port 3333"
-  },
   "dependencies": {
     "json-server": "^1.0.0-alpha.21"
   }
